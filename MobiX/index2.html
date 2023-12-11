@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobiX</title>
+    <link rel="icon" type="images" href="/images/logo/logorisize.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <a href="#" class="we clickable" data-lang-en="about us" data-lang-ka="ჩვენ შესახებ"> ჩვენ შესახებ </a>
+            <a href="#" class="support clickable" data-lang-en="support" data-lang-ka="დახმარება">დახმარება </a>
+            <a href="#" class="installment clickable" data-lang-en="Installment" data-lang-ka="განვადება"> განვადება </a>
+            <span class="phone-numbers">📞+995 558 59 88 81</span>
+        </div>
+        <div class="header-middle">
+            <div class="logo">  
+                <a href="http://127.0.0.1:5500/index.html">
+                <img src="images/logo/MobiX-l-removebg-preview.png" alt="Logo"  height="40px"/> 
+                </a>
+            </div>
+
+
+            <div class="menu-search">
+                
+               <div class="dropdown  nav-dropdown">
+                    <button class="menu-btn" data-lang-en="Navigation" data-lang-ka="ნავიგაცია"> ნავიგაცია</button>
+                    <div class="dropdown-content  nav-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        <a href="#">Link 4</a>
+                        <!-- Add more links as needed -->
+                    </div>
+                </div>
+                
+                <div class="search-wrapper">
+                    <input type="text" class="search-input" placeholder="ძებნა" />
+                    <button class="search-icon-button">
+                        <div class="gg-search"></div>
+                    </button>
+                </div>
+            </div>
+            
+
+           <div class="account-icons">
+    <button class="menu-btn" data-lang-en="Menu" data-lang-ka="მენიუ">მენიუ</button> <!-- Added this as an example -->
+    <button class="account-btn" data-lang-en="Basket" data-lang-ka="კალათა">კალათა</button>
+    <button class="login-btn" data-lang-en="Sign in" data-lang-ka="შესვლა">შესვლა</button>
+</div>
+
+        </div>
+    </header>
+    <nav>
+        <a href="http://127.0.0.1:5500/index.html" data-lang-en="Home" data-lang-ka="მთავარი"><span class="gg-home" > </span>მთავარი</a>
+        <a href="#" data-lang-en="Brands" data-lang-ka="ბრენდები"><span class="gg-smartphone" > </span>ბრენდები</a>
+        <a href="#" data-lang-en="Accessories" data-lang-ka="აქსესუარები">აქსესუარები</a>
+    </nav>
+
+
+<div class="product-display">
+    <h3>Samsung Galaxy S23 Ultra 5G S918B/DS 12/256GB </h3>
+    <div class="image-section">
+        <!-- Main image -->
+        <img src="images/samsung galaxy s23 ultra green/samsung-galaxy-s23-ultrag.webp" alt="Samsung Galaxy S23 Ultra" class="main-concret-image active">
+        <!-- Thumbnails -->
+        <div class="thumbnails">
+            <img src="images/samsung galaxy s23 ultra green/samsung-galaxy-s23-ultrag.webp" alt="Thumbnail 1" class="thumbnail active" onclick="changeMainImage('images/samsung galaxy s23 ultra green/samsung-galaxy-s23-ultrag.webp')">
+            <img src="images/samsung galaxy s23 ultra green/samsung-galaxy-s23-ultragr.webp" alt="Thumbnail 2" class="thumbnail " onclick="changeMainImage('images/samsung galaxy s23 ultra green/samsung-galaxy-s23-ultragr.webp')">
+            <img src="images/samsung galaxy s23 ultra green/samsung-galaxy-s23-ultragri.webp" alt="Thumbnail 3" class="thumbnail " onclick="changeMainImage('images/samsung galaxy s23 ultra green/samsung-galaxy-s23-ultragri.webp')">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="product-description">
+
+    <!-- Color Options Section -->
+    <div class="spec-section color-section">
+        <strong>ფერი:</strong>
+        <div class="colors">
+            <a href="iphone15s.html/index1.1.html">
+                <span class="color" style="background-color: #54544e"></span>
+            </a>
+            <a href="index2.html">
+                <span class="color" style="background-color: #F3F4F7;"></span>
+            </a>
+            <a href="#color3-link">
+                <span class="color" style="background-color: rgb(91, 121, 142);"></span>
+            </a>
+            <a href="iphone15s.html/index1.html">
+                <span class="color active" style="background-color: #878681; border: 2px solid rgb(150, 5, 5);"></span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Storage Options Section -->
+    <div class="spec-section storage-section">
+        <strong>მეხსიერება:</strong>
+        <div class="storages">
+            <span class="storage active">128 GB</span>
+            <span class="storage">256 GB</span>
+            <span class="storage">512 GB</span>
+            <span class="storage">1TB</span>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <!-- Price Display Section -->
+    <div class="price-section">
+        <span class="current-price">3799 ₾</span>
+        <span class="previous-price">3899 ₾</span>
+    </div>
+
+    
+
+    <!-- Buy Button -->
+    <button class="buy-button">ყიდვა</button>
+
+    <!-- Compare and Wishlist Buttons 
+    <div class="action-buttons">
+       <!-- <button class="compare">შედარება</button>
+        <button class="wishlist">სურვილების სია</button>
+    </div>-->
+</div>
+
+<div class="phone-details">
+    <h2>Sample Phone</h2>
+    <p><strong>Color Options:</strong> Blue Titanium</p>
+    <p><strong>Bluetooth Specifications:</strong> 5.3, A2DP, LE</p>
+    <p><strong>Ports:</strong> USB Type-C 3.0, DisplayPort</p>
+</div>
+<!--
+<div class="content">
+    Sample Phone
+    <div id="expandableContent" class="dropdown-info-content">
+        <br>
+        Color Options: Blue Titanium<br>
+        Bluetooth Specifications: 5.3, A2DP, LE<br>
+        Ports: USB Type-C 3.0, DisplayPort<br>
+    </div>
+    <button class="dropd-infobtn" onclick="toggleContent()">View more ▼</button>
+</div>
+
+-->
+
+</body>
+<footer>
+    <div class="footer-section">
+        <h3   data-lang-en="Navigation" data-lang-ka="ნავიგაცია">ნავიგაცია</h3>
+        <ul>
+            <li data-lang-en="about us" data-lang-ka="ჩვენ შესახებ">ჩვენ შესახებ</li>
+            <li data-lang-en="Terms and Conditions" data-lang-ka="წესები და პირობები">წესები და პირობები</li>
+            <li data-lang-en="Corporate Sales" data-lang-ka="კორპორატიული გაყიდვები">კორპორატიული გაყიდვები</li>
+            <li data-lang-en="Delivery service" data-lang-ka="მიწოდების სერვისი">მიწოდების სერვისი</li>
+        </ul>
+    </div>
+
+    <!-- Add more footer-section divs as needed... -->
+
+    <div class="footer-bottom">
+        <p>Copyright © 2023 MobiX.ge. All rights reserved jer ara.</p>
+    </div>
+
+<div class="language-selector">
+    <button id="languageButton">ქართული</button>
+    <div id="languageDropdown" class="dropdown-content">
+        <a href="#" data-lang="en">English (en)</a>
+        <a href="#" data-lang="ka">ქართული (ka)</a>
+    </div>
+</div>
+</footer>
+</html>

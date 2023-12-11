@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobiX</title>
+    <link rel="icon" type="images" href="/images/logo/logorisize.png"> <!--gasaketebeli-->
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="script.js" defer></script>
+    
+</head>
+
+<body>
+    
+    <header>
+        <div class="header-top">
+            <a href="#" class="we clickable"> ჩვენ შესახებ </a>
+            <a href="#" class="support clickable">დახმარება </a>
+            <a href="#" class="installment clickable"> განვადება </a>
+            <span class="phone-numbers">📞+995 558 59 88 81</span>
+        </div>
+        <div class="header-middle">
+            <div class="logo">  
+                <a href="http://127.0.0.1:5500/index.html">
+                <img src="images/logo/MobiX-l-removebg-preview.png" alt="Logo"  height="40px"/> 
+                </a>
+            </div>
+
+
+            <div class="menu-search">
+                
+               <div class="dropdown  nav-dropdown">
+                    <button class="menu-btn"> ნავიგაცია</button>
+                    <div class="dropdown-content  nav-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        <a href="#">Link 4</a>
+                        <!-- Add more links as needed -->
+                    </div>
+                </div>
+                
+                <div class="search-wrapper">
+                    <input type="text" class="search-input" onkeyup="filterSearch()" placeholder="ძებნა">
+                    <button class="search-icon-button">
+                      <div class="gg-search"></div>
+                    </button>
+                  </div>
+                  <div class="search-results-box">
+                    <div id="search-results">
+                      <!-- Search results will be inserted here -->
+                    </div>
+                  </div>
+                  
+                
+                    
+                    
+            
+            
+
+           <div class="account-icons">
+    <button class="account-btn">კალათა</button>
+    <button class="login-btn">შესვლა</button>
+</div>
+
+        </div>
+    </header>
+    
+    <nav>
+        <a href="http://127.0.0.1:5500/index.html"><span class="gg-home" > </span>მთავარი</a>
+        <a href="#"><span class="gg-smartphone" > </span>ბრენდები</a>
+        <a href="http://127.0.0.1:5500/accessories.html"><span class="gg-apple-watch"></span>აქსესუარები</a>
+    </nav>
+    
+
+
+<div class="product-display">
+    <h3>Apple iPhone 15 Pro | 128GB Natural Titanium</h3>
+    <div class="image-section">
+        <!-- Main image -->
+        <img src="images/iphone 15 pro black titanioum/152333df-2dda-46fa-a340-dad7683ef59c_Thumb.webp" alt="iPhone 15 Pro" class="main-concret-image active">
+        <!-- Thumbnails -->
+        <div class="thumbnails">
+            <img src="images/iphone 15 pro black titanioum/152333df-2dda-46fa-a340-dad7683ef59c_Thumb.webp" alt="Thumbnail 1" class="thumbnail active" onclick="changeMainImage('images/iphone 15 pro black titanioum/152333df-2dda-46fa-a340-dad7683ef59c_Thumb.webp')">
+            <img src="images/iphone 15 pro black titanioum/9db8d9e2-b1f6-488c-a71d-90c51f6a250d_Thumb.webp" alt="Thumbnail 2" class="thumbnail " onclick="changeMainImage('images/iphone 15 pro black titanioum/9db8d9e2-b1f6-488c-a71d-90c51f6a250d_Thumb.webp')">
+            <img src="images/iphone 15 pro black titanioum/b0f95a98-6c56-42e1-8bc0-e808bbffa5d4_Thumb.webp" alt="Thumbnail 3" class="thumbnail " onclick="changeMainImage('images/iphone 15 pro black titanioum/b0f95a98-6c56-42e1-8bc0-e808bbffa5d4_Thumb.webp')">
+            <img src="images/iphone 15 pro black titanioum/bd81d007-5ac4-4e03-b484-762663b844a5_Thumb.webp" alt="Thumbnail 4" class="thumbnail " onclick="changeMainImage('images/iphone 15 pro black titanioum/bd81d007-5ac4-4e03-b484-762663b844a5_Thumb.webp')">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="product-description">
+
+    <!-- Color Options Section -->
+    <div class="spec-section color-section">
+        <strong>ფერი:</strong>
+        <div class="colors">
+            <a href="iphone15s.html/index1.1.html">
+                <span class="color" style="background-color: #54544e"></span>
+            </a>
+            <a href="index2.html">
+                <span class="color" style="background-color: #F3F4F7;"></span>
+            </a>
+            <a href="#color3-link">
+                <span class="color" style="background-color: rgb(91, 121, 142);"></span>
+            </a>
+            <a href="index1.html">
+                <span class="color active" style="background-color: #878681; border: 2px solid rgb(150, 5, 5);"></span>
+            </a>
+        </div>
+    </div>
+    
+
+    <!-- Storage Options Section -->
+    <div class="spec-section storage-section">
+        <strong>მეხსიერება:</strong>
+        <div class="storages">
+            <span class="storage active" data-price="3799">128 GB</span>
+            <span class="storage" data-price="4299">256 GB</span>
+            <span class="storage" data-price="4799">512 GB</span>
+            <span class="storage" data-price="5299">1TB</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <!-- Price Display Section -->
+        <div class="price-section">
+            <span class="current-price">3799₾</span>
+            <span class="previous-price">3899₾</span>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+
+    
+
+    <!-- Buy Button -->
+    <button class="buy-button">ყიდვა</button>
+
+    <!-- Compare and Wishlist Buttons 
+    <div class="action-buttons">
+       <!-- <button class="compare">შედარება</button>
+        <button class="wishlist">სურვილების სია</button>
+    </div>-->
+</div>
+
+<div class="phone-details details-container">
+    <h2>Apple iphone 15 Pro</h2>
+    
+    <div class="detail-item">
+        <span class="detail-title">Color Options:</span>
+        <span class="detail-value">Blue Titanium</span>
+    </div>
+    
+    <div class="detail-item">
+        <span class="detail-title">Bluetooth Specifications:</span>
+        <span class="detail-value">5.3, A2DP, LE</span>
+    </div>
+    <div class="detail-item">
+        <span class="detail-title">Ports:</span>
+        <span class="detail-value">USB Type-C 3.0, DisplayPort/span>
+    </div>
+    <div class="detail-item">
+        <span class="detail-title">Ports:</span>
+        <span class="detail-value">USB Type-C 3.0, DisplayPort/span>
+    </div>
+    <div class="detail-item">
+        <span class="detail-title">Ports:</span>
+        <span class="detail-value">USB Type-C 3.0, DisplayPort/span>
+    </div>
+    <div class="detail-item">
+        <span class="detail-title">Ports:</span>
+        <span class="detail-value">USB Type-C 3.0, DisplayPort/span>
+    </div>
+    <div class="detail-item">
+        <span class="detail-title">Ports:</span>
+        <span class="detail-value">USB Type-C 3.0, DisplayPort/span>
+    </div>
+    <div class="detail-item">
+        <span class="detail-title">Ports:</span>
+        <span class="detail-value">USB Type-C 3.0, DisplayPort/span>
+    </div>
+    <button class="collapsible"> view more</button>
+    <div class="content">
+        <p>USB Type-C 3.0, DisplayPort</p>
+        <p>USB Type-C 3.0, DisplayPort</p>
+        <p>USB Type-C 3.0, DisplayPort</p>
+        <p>USB Type-C 3.0, DisplayPort</p>
+        <p>USB Type-C 3.0, DisplayPort</p>
+      </div>
+</div>
+<!--
+<div class="content">
+    Sample Phone
+    <div id="expandableContent" class="dropdown-info-content">
+        <br>
+        Color Options: Blue Titanium<br>
+        Bluetooth Specifications: 5.3, A2DP, LE<br>
+        Ports: USB Type-C 3.0, DisplayPort<br>
+    </div>
+    <button class="dropd-infobtn" onclick="toggleContent()">View more ▼</button>
+</div>
+
+-->
+
+</body>
+<footer>
+    <div class="footer-section">
+        <h3   data-lang-en="Navigation" data-lang-ka="ნავიგაცია">ნავიგაცია</h3>
+        <ul>
+            <li data-lang-en="about us" data-lang-ka="ჩვენ შესახებ">ჩვენ შესახებ</li>
+            <li data-lang-en="Terms and Conditions" data-lang-ka="წესები და პირობები">წესები და პირობები</li>
+            <li data-lang-en="Corporate Sales" data-lang-ka="კორპორატიული გაყიდვები">კორპორატიული გაყიდვები</li>
+            <li data-lang-en="Delivery service" data-lang-ka="მიწოდების სერვისი">მიწოდების სერვისი</li>
+        </ul>
+    </div>
+
+    <!-- Add more footer-section divs as needed... -->
+
+    <div class="footer-bottom">
+        <p>Copyright © 2023 MobiX.ge. All rights reserved jer ara.</p>
+    </div>
+
+<div class="language-selector">
+    <button id="languageButton">ქართული</button>
+    <div id="languageDropdown" class="dropdown-content">
+        <a href="#" data-lang="en">English (en)</a>
+        <a href="#" data-lang="ka">ქართული (ka)</a>
+    </div>
+</div>
+</footer>
+</html>

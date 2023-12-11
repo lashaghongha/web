@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Apple iPhone 15 Pro | 128GB Natural Titanium",
+      "images": [
+        "images/iphone 15 pro natural titanium/iphone 15 prot.webp",
+        "images/iphone 15 pro natural titanium/iphone 15 proti.webp",
+        "images/iphone 15 pro natural titanium/iphone 15 protit.webp"
+      ],
+      "colors": [
+        {"hex": "#54544e", "url": "index1.1.html"},
+        {"hex": "#F3F4F7", "url": "index2.html"},
+        {"hex": "rgb(91, 121, 142)", "url": "index3.html"},
+        {"hex": "#878681", "url": "index1.html", "active": true}
+      ],
+      "storage": [
+        {"size": "128 GB", "price": "3799", "active": true},
+        {"size": "256 GB", "price": "4299"},
+        {"size": "512 GB", "price": "4799"},
+        {"size": "1TB", "price": "5299"}
+      ],
+      "price": {"current": "3799₾", "previous": "3899₾"}
+
+    }
+
+  ]
+  
